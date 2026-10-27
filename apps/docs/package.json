@@ -10,7 +10,7 @@
     "registry:build:all": "pnpm registry:generate:local && pnpm registry:build:nativewind && pnpm registry:build:nativewind:local && pnpm registry:build:uniwind && pnpm registry:build:uniwind:local",
     "registry:build:nativewind": "shadcn build ./registry/nativewind.json --output ./public/r/nativewind",
     "registry:build:nativewind:local": "shadcn build ./registry/nativewind.local.json --output ./public/local/r/nativewind",
-    "registry:build:uniwind": "shadcn build ./registry/uniwind.json --output ./public/r/uniwind",
+    "registry:build:uniwind": "shadcn build ./registry/uniwind.json --output ./public/r/uniwind && node ./scripts/build-shadcn-root.mts",
     "registry:build:uniwind:local": "shadcn build ./registry/uniwind.local.json --output ./public/local/r/uniwind",
     "registry:generate:local": "node ./scripts/generate-local-registry.js",
     "postinstall": "fumadocs-mdx"

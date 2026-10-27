@@ -1,0 +1,596 @@
+[
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "accordion",
+    "type": "registry:ui",
+    "title": "Accordion",
+    "author": "@mrzachnugent",
+    "description": "A vertically stacked set of interactive headings that each reveal a section of content.",
+    "dependencies": [
+      "@rn-primitives/accordion"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/icon.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/accordion.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "alert",
+    "type": "registry:ui",
+    "title": "Alert",
+    "author": "@mrzachnugent",
+    "description": "Displays a callout for user attention.",
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/icon.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/alert.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "alert-dialog",
+    "type": "registry:ui",
+    "title": "Alert Dialog",
+    "author": "@mrzachnugent",
+    "description": "A modal dialog that interrupts the user with important content and expects a response.",
+    "dependencies": [
+      "@rn-primitives/alert-dialog"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/button.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/native-only-animated-view.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/alert-dialog.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "aspect-ratio",
+    "type": "registry:ui",
+    "title": "Aspect Ratio",
+    "author": "@mrzachnugent",
+    "description": "Displays content within a desired ratio.",
+    "dependencies": [
+      "@rn-primitives/aspect-ratio"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/aspect-ratio.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "avatar",
+    "type": "registry:ui",
+    "title": "Avatar",
+    "author": "@mrzachnugent",
+    "description": "An image element with a fallback for representing the user.",
+    "dependencies": [
+      "@rn-primitives/avatar"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/avatar.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "badge",
+    "type": "registry:ui",
+    "title": "Badge",
+    "author": "@mrzachnugent",
+    "description": "Displays a badge or a component that looks like a badge.",
+    "dependencies": [
+      "@rn-primitives/slot"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/badge.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "button",
+    "type": "registry:ui",
+    "title": "Button",
+    "author": "@mrzachnugent",
+    "description": "Displays a button or a component that looks like a button.",
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/button.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "card",
+    "type": "registry:ui",
+    "title": "Card",
+    "author": "@mrzachnugent",
+    "description": "Displays a card with header, content, and footer.",
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/card.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "checkbox",
+    "type": "registry:ui",
+    "title": "Checkbox",
+    "author": "@mrzachnugent",
+    "description": "A control that allows the user to toggle between checked and not checked.",
+    "dependencies": [
+      "@rn-primitives/checkbox"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/icon.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/checkbox.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "collapsible",
+    "type": "registry:ui",
+    "title": "Collapsible",
+    "author": "@mrzachnugent",
+    "description": "A control that allows the user to toggle between checked and not checked.",
+    "dependencies": [
+      "@rn-primitives/collapsible"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/collapsible.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "context-menu",
+    "type": "registry:ui",
+    "title": "Context Menu",
+    "author": "@mrzachnugent",
+    "description": "Displays a menu to the user — such as a set of actions or functions — triggered by a button.",
+    "dependencies": [
+      "@rn-primitives/context-menu"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/native-only-animated-view.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/icon.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/context-menu.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "dialog",
+    "type": "registry:ui",
+    "title": "Dialog",
+    "author": "@mrzachnugent",
+    "description": "A window overlaid on either the primary window or another dialog window, rendering the content underneath inert.",
+    "dependencies": [
+      "@rn-primitives/dialog"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/native-only-animated-view.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/icon.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/dialog.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "dropdown-menu",
+    "type": "registry:ui",
+    "title": "Dropdown Menu",
+    "author": "@mrzachnugent",
+    "description": "Displays a menu to the user — such as a set of actions or functions — triggered by a button.",
+    "dependencies": [
+      "@rn-primitives/dropdown-menu"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/native-only-animated-view.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/icon.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/dropdown-menu.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "hover-card",
+    "type": "registry:ui",
+    "title": "Hover Card",
+    "author": "@mrzachnugent",
+    "description": "For sighted users to preview content available behind a link.",
+    "dependencies": [
+      "@rn-primitives/hover-card"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/native-only-animated-view.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/hover-card.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "icon",
+    "type": "registry:ui",
+    "title": "Icon",
+    "author": "@mrzachnugent",
+    "description": "A component for displaying icons with consistent styling.",
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/icon.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "input",
+    "type": "registry:ui",
+    "title": "Input",
+    "author": "@mrzachnugent",
+    "description": "Displays a form input field or a component that looks like an input field.",
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/input.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "label",
+    "type": "registry:ui",
+    "title": "Label",
+    "author": "@mrzachnugent",
+    "description": "Renders an accessible label associated with controls.",
+    "dependencies": [
+      "@rn-primitives/label"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/label.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "menubar",
+    "type": "registry:ui",
+    "title": "Menubar",
+    "author": "@mrzachnugent",
+    "description": "A visually persistent menu common in desktop applications that provides quick access to a consistent set of commands.",
+    "dependencies": [
+      "@rn-primitives/menubar"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/native-only-animated-view.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/icon.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/menubar.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "native-only-animated-view",
+    "type": "registry:ui",
+    "title": "Native Only Animated View",
+    "author": "@mrzachnugent",
+    "description": "A component that is only rendered and animated on native platforms.",
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/native-only-animated-view.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "popover",
+    "type": "registry:ui",
+    "title": "Popover",
+    "author": "@mrzachnugent",
+    "description": "Displays rich content in a portal, triggered by a button.",
+    "dependencies": [
+      "@rn-primitives/popover"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/native-only-animated-view.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/popover.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "progress",
+    "type": "registry:ui",
+    "title": "Progress",
+    "author": "@mrzachnugent",
+    "description": "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+    "dependencies": [
+      "@rn-primitives/progress"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/progress.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "radio-group",
+    "type": "registry:ui",
+    "title": "Radio Group",
+    "author": "@mrzachnugent",
+    "description": "A set of checkable buttons—known as radio buttons—where no more than one of the buttons can be checked at a time.",
+    "dependencies": [
+      "@rn-primitives/radio-group"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/radio-group.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "select",
+    "type": "registry:ui",
+    "title": "Select",
+    "author": "@mrzachnugent",
+    "description": "Displays a list of options for the user to pick from—triggered by a button.",
+    "dependencies": [
+      "@rn-primitives/select"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/native-only-animated-view.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/icon.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/select.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "separator",
+    "type": "registry:ui",
+    "title": "Separator",
+    "author": "@mrzachnugent",
+    "description": "Visually or semantically separates content.",
+    "dependencies": [
+      "@rn-primitives/separator"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/separator.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "skeleton",
+    "type": "registry:ui",
+    "title": "Skeleton",
+    "author": "@mrzachnugent",
+    "description": "Use to show a placeholder while content is loading.",
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/skeleton.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "switch",
+    "type": "registry:ui",
+    "title": "Switch",
+    "author": "@mrzachnugent",
+    "description": "A control that allows the user to toggle between checked and not checked.",
+    "dependencies": [
+      "@rn-primitives/switch"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/switch.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "tabs",
+    "type": "registry:ui",
+    "title": "Tabs",
+    "author": "@mrzachnugent",
+    "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+    "dependencies": [
+      "@rn-primitives/tabs"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/tabs.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "text",
+    "type": "registry:ui",
+    "title": "Text",
+    "author": "@mrzachnugent",
+    "description": "A component for displaying text.",
+    "dependencies": [
+      "@rn-primitives/slot"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/text.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "textarea",
+    "type": "registry:ui",
+    "title": "Textarea",
+    "author": "@mrzachnugent",
+    "description": "Displays a form textarea or a component that looks like a textarea.",
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/textarea.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "toggle",
+    "type": "registry:ui",
+    "title": "Toggle",
+    "author": "@mrzachnugent",
+    "description": "A two-state button that can be either on or off.",
+    "dependencies": [
+      "@rn-primitives/toggle"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/icon.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/toggle.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "toggle-group",
+    "type": "registry:ui",
+    "title": "Toggle Group",
+    "author": "@mrzachnugent",
+    "description": "A set of two-state buttons that can be toggled on or off.",
+    "dependencies": [
+      "@rn-primitives/toggle-group"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/icon.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/toggle.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/toggle-group.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "name": "tooltip",
+    "type": "registry:ui",
+    "title": "Tooltip",
+    "author": "@mrzachnugent",
+    "description": "A popup that displays information related to an element when the element receives keyboard focus, the mouse hovers over it, or when it is pressed.",
+    "dependencies": [
+      "@rn-primitives/tooltip"
+    ],
+    "registryDependencies": [
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/text.json",
+      "https://raw.githubusercontent.com/pattobrien/react-native-reusables/main/apps/docs/public/r/uniwind/styles/new-york-v4/native-only-animated-view.json"
+    ],
+    "files": [
+      {
+        "path": "./node_modules/@rnr/registry/src/uniwind/components/ui/tooltip.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  }
+]
